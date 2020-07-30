@@ -5,6 +5,7 @@
 #
 extends Node
 
+#class name for Godot
 class_name GameInput
 
 #maximun local players

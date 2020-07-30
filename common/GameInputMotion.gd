@@ -26,6 +26,8 @@ var type=""
 #for joysticks 
 var dead_zone=0
 
+#class constructor
+#env: Input Event, dz: DeadZone 
 func _init(env:InputEvent,dz):
 	device=env.device
 	dead_zone=dz
@@ -41,7 +43,7 @@ func _init(env:InputEvent,dz):
 		type="mouse"
 		speed=env.speed
 
-#update state of event
+#update state of motion event
 func update(evt):
 	match type:
 		"left_stick":

@@ -26,7 +26,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Input Manager"
+config/name="Input Manager "
+config/description="Multiplayer input manager example"
 run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
 

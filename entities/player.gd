@@ -7,7 +7,10 @@ export(float) var speed=300
 export(float) var twin_stick_mode=true
 export(Color) var player_color=Color(0,1,1,1) setget set_player_color
 
+#movement direction
 var direction=Vector2(0,0)
+
+#laser pointer angle
 var angle=0
 
 #not needed for demo but here anyway

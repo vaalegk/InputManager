@@ -11,6 +11,7 @@ anchor_right = 1.0
 margin_right = 800.0
 margin_bottom = 14.0
 size_flags_vertical = 7
+text = "..."
 __meta__ = {
 "_edit_use_anchors_": false
 }
